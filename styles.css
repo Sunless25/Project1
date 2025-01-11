@@ -1,0 +1,41 @@
+html{ 
+    background-image: url(https://pbs.twimg.com/media/EG7_AwkWkAEMurb.png);
+}
+@font-face {
+    font-family: 'Coming Soon Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Coming Soon Regular'), url('ComingSoon-Regular.woff') format('woff');
+    }
+body {
+    text-align: center;
+    color: aliceblue;
+}
+p{
+    font-size: larger;
+}
+ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left; /* ici j'ai des aide de google et chatgpt */
+}
+
+li {
+    display: block;
+    text-align: left;
+    
+}
+/* après l'alignement du texte, il y a un problème avec le point, donc j'utilise + comme il le place*/
+li{
+    font-size: larger;
+}
+.logo {
+     width: 400px;
+     height:150px;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+/*lorsque j'ai ajouté ce logo, j'ai découvert que je pouvais le rendre réactif*/
